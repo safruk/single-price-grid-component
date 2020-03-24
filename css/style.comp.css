@@ -76,7 +76,7 @@ body {
     .container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin: 10rem; } }
+      margin: 15rem; } }
   .container__header {
     background-color: #fff;
     color: rgba(var(--color-neutral-2), 1); }
