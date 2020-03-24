@@ -40,17 +40,21 @@ body {
   font-weight: 400;
   line-height: 1.5; }
 
-.heading-main {
-  color: rgba(var(--color-primary), 1);
-  margin-bottom: 1.5rem; }
-
-.heading-sub {
-  color: rgba(var(--color-secondary), 1);
-  margin-bottom: 1rem; }
-
-.heading-tertiary {
-  color: #fff;
-  margin-bottom: 1rem; }
+.heading {
+  font-size: inherit;
+  font-weight: 700; }
+  .heading-main {
+    font-size: 2.33rem;
+    color: rgba(var(--color-primary), 1);
+    margin-bottom: 2rem; }
+  .heading-sub {
+    font-size: 1.75rem;
+    color: rgba(var(--color-secondary), 1);
+    margin-bottom: 1rem; }
+  .heading-tertiary {
+    font-size: 1.75rem;
+    color: #fff;
+    margin-bottom: 1rem; }
 
 .para {
   font-size: inherit;

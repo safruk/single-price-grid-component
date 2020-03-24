@@ -7,18 +7,22 @@ body{
 }
 //heading styles
 .heading{
-
+  font-size: inherit;
+  font-weight: 700;
   &-main{
+    font-size: 2.33rem;
     color: rgba(var(--color-primary),1);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   &-sub{
+    font-size: 1.75rem;
     color: rgba(var(--color-secondary), 1);
     margin-bottom: 1rem;
   }
 
   &-tertiary{
+    font-size: 1.75rem;
     color: #fff;
     margin-bottom: 1rem;
   }
