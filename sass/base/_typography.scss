@@ -1,0 +1,37 @@
+//common typography styles
+body{
+  font-family: 'Karla',sans-serif;
+  font-size: var(--default-font-size);
+  font-weight: 400;
+  line-height: 1.5;
+}
+//heading styles
+.heading{
+
+  &-main{
+    color: rgba(var(--color-primary),1);
+    margin-bottom: 1.5rem;
+  }
+
+  &-sub{
+    color: rgba(var(--color-secondary), 1);
+    margin-bottom: 1rem;
+  }
+
+  &-tertiary{
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+}
+
+//common para style
+.para{
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+//feature section text style
+.text {
+  font-size: 1.35rem;
+  font-weight: inherit;
+}

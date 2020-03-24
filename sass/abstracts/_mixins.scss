@@ -1,0 +1,21 @@
+@mixin respond($breakpoint) {
+  // @if $breakpoint == phone-tn {
+  //     @media only screen and (min-width: 18.75em) { @content };    //300px Honor 10 lite, nokia 4011
+  // }
+  @if $breakpoint == phone { //phone-sm
+      @media only screen and (min-width: 23.5em) { @content };    //376px
+  }
+  // @if $breakpoint == phone-lg {
+  //     @media only screen and (min-width: 37.5em) { @content };    //600px
+  // }
+  @if $breakpoint == tab-port {
+      @media only screen and (min-width: 56.25em) { @content };     //900px
+  }
+  @if $breakpoint == tab-land {
+      @media only screen and (min-width: 75em) { @content };    //1200px
+  }
+  @if $breakpoint == big-desktop {
+      @media only screen and (min-width: 112.5em) { @content };    //1800
+  }
+
+}

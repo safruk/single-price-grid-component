@@ -1,0 +1,19 @@
+:root{
+  // ### Primary
+  //
+  // - Cyan: hsl(179, 62%, 43%)
+  // - Bright Yellow: hsl(71, 73%, 54%)
+  //
+  // ### Neutral
+  //
+  // - Light Gray: hsl(204, 43%, 93%)
+  // - Grayish Blue: hsl(218, 22%, 67%)
+
+  --color-primary: 42, 179, 175; //rgb values
+  --color-secondary: 192, 223, 52; //rgb values
+
+  --color-neutral-1: 229, 239, 245; // rgb values
+  --color-neutral-2: 152, 166, 189; // rgb values
+
+  --default-font-size: 1.6rem;
+}
