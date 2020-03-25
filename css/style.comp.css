@@ -14,7 +14,7 @@
 
 html {
   font-size: 37.5%; }
-  @media only screen and (min-width: 23.5em) {
+  @media only screen and (min-width: 18.75em) {
     html {
       font-size: 50%; } }
   @media only screen and (min-width: 56.25em) {
@@ -33,6 +33,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(var(--color-neutral-1), 1); }
+  @media only screen and (min-width: 56.25em) {
+    body {
+      min-height: 100vh; } }
 
 body {
   font-family: 'Karla',sans-serif;
@@ -76,7 +79,7 @@ body {
     .container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin: 15rem; } }
+      margin: auto; } }
   .container__header {
     background-color: #fff;
     color: rgba(var(--color-neutral-2), 1); }

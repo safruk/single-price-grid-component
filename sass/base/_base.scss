@@ -29,4 +29,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: rgba(var(--color-neutral-1),1);
+  @include respond(tab-port){
+      min-height: 100vh;
+  }
 }
