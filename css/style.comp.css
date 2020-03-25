@@ -33,9 +33,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(var(--color-neutral-1), 1); }
-  @media only screen and (min-width: 56.25em) {
-    body {
-      min-height: 100vh; } }
 
 body {
   font-family: 'Karla',sans-serif;
@@ -79,7 +76,7 @@ body {
     .container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin: auto; } }
+      margin: 20rem; } }
   .container__header {
     background-color: #fff;
     color: rgba(var(--color-neutral-2), 1); }

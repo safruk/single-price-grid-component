@@ -11,7 +11,7 @@
   @include respond(tab-port) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: auto;
+    margin: 20rem;
     // grid-template-rows: auto auto;
     // grid-gap: 4rem;
   }
